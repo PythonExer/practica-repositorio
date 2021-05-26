@@ -1,5 +1,5 @@
-import json
+import json 
 with open("api/userdata.json","r") as api:
     data = api.read()
 
-print(data)
+print(json.loads(data)[1]['apellido'])

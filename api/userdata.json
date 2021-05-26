@@ -2,5 +2,16 @@
     {
         "nombre":"freddy",
         "apellido": "zamora"
+    },
+    {
+        "nombre":"Luis",
+        "apellido": [
+            {
+                        "primerApellido": "Andrade",
+            },
+            {
+                "segundoApellido": "Salvador"
+            }
+        ]
     }
 ]
